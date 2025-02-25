@@ -1,15 +1,20 @@
 ---
+import Header from "../components/Header"
+import Footer from "../components/Footer"
 import "../styles/global.css"
+
+const {frontmatter} = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>{frontmatter.title}</title>
 </head>
 <body>
-  <p>Laura Lopez Dev</p>
+  <Header title = {frontmatter.title}/>
   <slot />
+  <Footer phone = "581-980-93-58" email = "lauralop_11@hotmail.com" />
 </body>
 </html>

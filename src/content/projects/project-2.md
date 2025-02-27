@@ -1,7 +1,7 @@
 ---
-title:"Palindrome"
-description:"Realisation avec HTML, CSS et JavaScript"
-heroImage:""
+title: "Dragon ball"
+description: "Realisation avec HTML, CSS et JavaScript"
+heroImage: "/assets/dragonBall.jpg"
 ---
-## Palindrome ou pas
-Pour trouver si un mot est palindrome ou pas.
+## Dragon Ball play
+Faire un petit combat entre les personages du Dragon Ball.

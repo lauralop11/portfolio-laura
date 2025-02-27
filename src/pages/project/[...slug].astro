@@ -1,7 +1,6 @@
 ---
 import { type CollectionEntry, getCollection } from "astro:content";
 import Projects from "../../layouts/Projects.astro"
-import type { any } from "astro/zod";
 
 export async function getStaticPaths() {
   const project = await getCollection('projects');
@@ -15,6 +14,6 @@ type Props = CollectionEntry<'projects'>
 const project = Astro.props;
 const {Content} = await project.render();
 ---
-<Projects>
+<Projects {...project.data}>
   <Content />
 </Projects>

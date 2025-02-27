@@ -4,11 +4,23 @@ import Basic from "../../layouts/Basic.astro";
 ---
 
 <Basic title="Laura Lopez">
-	<h1>Hola</h1>
-	<p>
-		Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio vero
-		blanditiis sapiente corrupti tenetur asperiores illum. Quidem quasi tempore,
-		deleniti nisi totam maxime fugiat molestias autem distinctio, corrupti dolor
-		fugit?
-	</p>
+	<section>
+		<article>
+			<h1 class="mt-10 text-4xl font-bold">Hello</h1>
+			<p class="my-3 text-sm/7">
+			Je suis développeuse web depuis 2021, spécialisée en JavaScript, HTML, CSS,React, Astro, Bootstrap, Tailwind et gestion de bases de données avec MySQL. Après un BAC en droit et des études en marketing digital, j'ai trouvé ma voie dans les technologies. Aujourd'hui, je travaille en tant que développeuse et suis passionnée par l'innovation et la création de solutions web.
+			</p>
+		</article>
+		<article class="flex flex-row justify-around my-5 items-center">
+			<a href="#" class="flex items-center justify-center w-[100px] h-[100px] bg-[#FFCC70] hexagono mr-1 font-semibold transition transition-discrete hover:opacity-80"><span >Curriculum</span></a>
+			<a href="#"><span class="flex items-center justify-center w-[100px] h-[100px] bg-[#FFFADD] hexagono mr-1 font-semibold transition transition-discrete hover:opacity-80">Projects</span></a>
+			<a href="#"><span class="flex items-center justify-center w-[100px] h-[100px] bg-[#8ECDDD] hexagono mr-1 font-semibold transition transition-discrete hover:opacity-80">Contact</span></a>
+		</article>
+	</section>
+	<div class="flex justify-center items-center mb-2 p-[2px 40px] rounded-full overflow-hidden bg-white w-[200px] h-[200px] m-auto">
+		<img class=" translate-[18px]" src="/assets/memoji.png" alt="">
+	</div>
+	
+	
+	
 </Basic>

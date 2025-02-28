@@ -10,6 +10,6 @@ export default defineConfig({
   },
   integrations: [react()],
   content: {
-    collections: ['projects'],  // Aquí debes asegurarte de que 'project' esté listado
+    collections: ['projects'], 
   },
 });

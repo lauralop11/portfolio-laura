@@ -9,7 +9,7 @@ interface HexagonoProps{
 const Hexagono: React.FC<HexagonoProps> = ({ruta,text,color
  }) => {
   return(
-    <a href={ruta} className={` hexagono flex items-center justify-center size-[100px] md:size-[200px] mr-1 font-semibold transition-all hover:scale-105 md:hover:scale-110`} style={{ backgroundColor: color }}><span className="md:text-xl">{text}</span></a>
+    <a href={ruta} className={` hexagono flex items-center justify-center size-[100px] md:size-[200px] mr-1 font-semibold transition-all  hover:scale-110`} style={{ backgroundColor: color }}><span className="md:text-xl">{text}</span></a>
   )
 }
 export default Hexagono;

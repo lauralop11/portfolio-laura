@@ -34,7 +34,7 @@ const Header : React.FC<HeaderProps> = ({title}) =>
           <a href="/project" className="block md:inline-block hover:hover:text-sky-700 px-3 py-3 hover:underline underline-offset-4 text-lg">
             Projects
           </a>
-          <a href="/contact" className="block md:inline-block hover:hover:text-sky-700 px-3 py-3 hover:underline underline-offset-4 text-lg">
+          <a href="mailto:lauralop1595@gmail.com" className="block md:inline-block hover:hover:text-sky-700 px-3 py-3 hover:underline underline-offset-4 text-lg">
             Contact
           </a>
         </div>

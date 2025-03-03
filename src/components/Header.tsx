@@ -28,10 +28,10 @@ const Header : React.FC<HeaderProps> = ({title}) =>
             </button>
         </div>
         <div className={`${isMenuOpen ? 'w-full block bg-[#e1e3e3]' : 'w-[200%] hidden md:bg-none md:flex'}  z-10 size-full absolute -top-5 md:top-0 pt-15 md:pt-0 left-0 md:relative md:w-auto  text-center text-bold mt-5 md:mt-0  transition duration-700 ease-in-out`}>
-          <a href="./curriculum" className="block md:inline-block hover:text-sky-700 px-3 py-3 hover:underline underline-offset-4 text-lg">
+          <a href="/portfolio-laura/curriculum" className="block md:inline-block hover:text-sky-700 px-3 py-3 hover:underline underline-offset-4 text-lg">
             Curriculum
           </a>
-          <a href="./project" className="block md:inline-block hover:hover:text-sky-700 px-3 py-3 hover:underline underline-offset-4 text-lg">
+          <a href="/portfolio-laura/project" className="block md:inline-block hover:hover:text-sky-700 px-3 py-3 hover:underline underline-offset-4 text-lg">
             Projects
           </a>
           <a href="mailto:lauralop1595@gmail.com" className="block md:inline-block hover:hover:text-sky-700 px-3 py-3 hover:underline underline-offset-4 text-lg">

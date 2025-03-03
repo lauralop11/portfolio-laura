@@ -1,7 +1,7 @@
 ---
-title: "Cesar Code"
-description: "Realisation avec HTML, CSS et JavaScript"
-heroImage: "/assets/codeCesar.jpg"
+title: "Page Comest IQ"
+description: "React, Tailwind, HTML, CSS et JavaScript"
+heroImage: "/assets/cometIQ.png"
 ---
-## Cesar code
-El Cifrado César est l'une des méthodes de chiffrement les plus anciennes, où chaque lettre du texte est remplacée par une autre lettre située à un nombre fixe de positions plus loin dans l'alphabet. Pour décoder un message chiffré avec le Chiffrement César, il est nécessaire de connaître le nombre de décalage (ou "clé") utilisé pour chiffrer le texte.
+
+Page de publicité créée pour une entreprise dédiée à la vente de materis beauté

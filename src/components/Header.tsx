@@ -23,8 +23,8 @@ const Header : React.FC<HeaderProps> = ({title}) =>
         {/* boton responsive menu */}
         <div className="flex md:hidden z-20 ">
           <button onClick={toggleMenu} id="hamburger" >
-            <img className={`toggle ${isMenuOpen ? 'hidden' : 'block'} cursor-pointer transition duration-700 ease-in-out active:-rotate-90`} src="./assets/menu.svg" width="40" height="40" />
-            <img className={`toggle ${isMenuOpen ? 'block' : 'hidden'} cursor-pointer transition duration-700 ease-in-out active:rotate-90`}  src="./assets/close.svg" width="40" height="40" />
+            <img className={`toggle ${isMenuOpen ? 'hidden' : 'block'} cursor-pointer transition duration-700 ease-in-out active:-rotate-90`} src="/portfolio-laura/assets/menu.svg" width="40" height="40" />
+            <img className={`toggle ${isMenuOpen ? 'block' : 'hidden'} cursor-pointer transition duration-700 ease-in-out active:rotate-90`}  src="/portfolio-laura/assets/close.svg" width="40" height="40" />
             </button>
         </div>
         <div className={`${isMenuOpen ? 'w-full block bg-[#e1e3e3]' : 'w-[200%] hidden md:bg-none md:flex'}  z-10 size-full absolute -top-5 md:top-0 pt-15 md:pt-0 left-0 md:relative md:w-auto  text-center text-bold mt-5 md:mt-0  transition duration-700 ease-in-out`}>

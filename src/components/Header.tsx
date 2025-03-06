@@ -17,7 +17,7 @@ const Header : React.FC<HeaderProps> = ({title}) =>
       <nav className="flex flex-wrap justify-between min-w-full">
         <div className="flex flex-row items-center">
           <span className="block w-[25px] h-[25px] bg-[#22668D] rounded-xl mr-1"></span>
-          <a  href="/portfolio-laura" className="text-xl font-bold mx-1 md:text-3xl">{title} 
+          <a  href="/portfolio-laura/" className="text-xl font-bold mx-1 md:text-3xl">{title} 
           <span className="text-lg font-light self-end text-gray-600 pl-2">Dev</span></a>
         </div>
         {/* boton responsive menu */}

@@ -6,7 +6,7 @@ interface FooterProps{
 }
 const Footer: React.FC <FooterProps> = ({phone,email}) => {
   return(
-    <footer className="flex flex-col md:flex-row md:items-center md:justify-around  gap-4 border-gray-300 border-t-1 pt-6">
+    <footer data-aos="fade-up" className="flex flex-col md:flex-row md:items-center md:justify-around  gap-4 border-gray-300 border-t-1 pt-6">
       <article>
         <h5 className="font-bold md:text-lg ">Telephone</h5>
         <p>{phone}</p>

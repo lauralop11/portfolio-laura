@@ -1,0 +1,68 @@
+{
+  "home": {
+    "greeting": "Salut",
+    "description": "Je suis développeuse web depuis 2021, spécialisée en JavaScript, HTML, CSS, React, Astro, Bootstrap, Tailwind et gestion de bases de données avec MySQL. Après un BAC en droit et des études en marketing digital, j'ai trouvé ma voie dans les technologies. Aujourd'hui, je travaille en tant que développeuse et suis passionnée par l'innovation et la création de solutions web.",
+    "options-page":["Curriculum", "Projets", "Contact"]
+  },
+  "footer": {
+    "phone": "Téléphone",
+    "email": "Courriel",
+    "networks": "Réseaux sociaux",
+    "creator": "@ Créé par Laura Lopez"
+  },
+  "projects": {
+    "title-projects": "Projets",
+    "items-projects":[{
+      "subtitle": "Page Comest IQ",
+      "technologies": "React, Tailwind, HTML, CSS et JavaScript",
+      "description": "Page de publicité créée pour une entreprise dédiée à la vente de matières premières pour produits de beauté",
+      "img": "/portfolio-laura/assets/cometIQ.png"
+    },{
+      "subtitle":"Dragon ball",
+      "technologies":"HTML, CSS et JavaScript",
+      "description":"Jeu pour faire un petit combat entre les personages du Dragon Ball.",
+      "img": "/portfolio-laura/assets/dragonBall.jpg"
+    },
+    {
+      "subtitle":"Contrôle des dépenses",
+      "technologies":"HTML, CSS et JavaScript",
+      "description":"Application développée pour garder le contrôle des dépenses mensuelles.",
+      "img": "/portfolio-laura/assets/budgetControl.png"
+    },
+    {
+      "subtitle":"Cesar Code",
+      "technologies":"HTML, CSS et JavaScript",
+      "description":"Pour décoder un message chiffré, il est nécessaire de connaître le nombre de décalage utilisé pour chiffrer le texte.",
+      "img": "/portfolio-laura/assets/CodeCesar.png"
+    }]
+  },
+  "curriculum": {
+    "title": "Curriculum",
+    "downloader": "Telecharger CV PDF",
+    "subtitle-experience": "Expérience professionnelle",
+    "experience":[{
+      "job": "Développeur front-end",
+      "place": "Indépendant",
+      "description-job": "Maintenance et développement de pages web à l'aide de Javascript et de frameworks tels que React et Typescript. Mise en page et conception réactive à l'aide de HTML, CSS, Bootstrap et tailwind."
+    },
+    {
+      "job": "Développeur web junior",
+      "place": "Mola",
+      "description-job": "Développement et maintenance de sites Web en utilisant HTML, CSS, JavaScript et frameworks comme Bootstrap. Intégration d'API tierces pour améliorer la fonctionnalité des sites Web. Optimisation des sites Web pour améliorer les performances et l'expérience utilisateur."
+    }],
+    "subtitle-certificates":"Certificats",
+    "certificates": ["Javascript et React - Udemy","React avec Next - Platzi", "Astro - Platzi", "Tailwind et React - Platzi"],
+    "subtitle-degrees": "Formation",
+    "degrees": [{
+      "deegre":"DEC en informatique",
+      "college": "Cégep de Lévis (1 an)"
+    },
+    {
+      "deegre":"Diplôme en conciliation extrajudiciaire en droit",
+      "college": "Université La Gran Colombia"
+    },{
+      "deegre":"Baccalauréat en droit",
+      "college": "Université La Gran Colombia"
+    }]
+  }
+}

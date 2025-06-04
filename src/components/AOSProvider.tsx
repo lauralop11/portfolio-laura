@@ -9,7 +9,6 @@ interface AOSProviderProps {
 
 const AOSProvider: React.FC<AOSProviderProps> = ({ children }) => {
   useEffect(() => {
-    console.log("hola mundoAOS");
     AOS.init({
       duration: 800, 
       once: false,  

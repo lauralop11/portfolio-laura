@@ -1,0 +1,63 @@
+---
+import Basic from "@layouts/Basic.astro"
+import translation from "@translation/es.json";
+---
+<style>
+  h4 {
+    font-weight: 500;
+    font-size: 1.25rem;
+  }
+  article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+  }
+  div > div {
+    grid-column: 1/ span 2;
+    margin: 1.27rem 0;
+    font-size: 0.87rem;
+  }
+  
+</style>
+<Basic title="Laura Lopez" data-aos="fade-up">
+    <h2 class="text-2xl font-bold my-6 ">{translation.curriculum.title}</h2>
+    <a href="/portfolio-laura/assets/Laura_lopez.pdf" download="CV_LauraLopez.pdf" class="btn-download flex gap-3 mb-5 font-semibold text-[#22668D] hover:text-[#FFCC70]">
+      {translation.curriculum.downloader}
+      <svg class="size-[20px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M288 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 242.7-73.4-73.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L288 274.7 288 32zM64 352c-35.3 0-64 28.7-64 64l0 32c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-32c0-35.3-28.7-64-64-64l-101.5 0-45.3 45.3c-25 25-65.5 25-90.5 0L165.5 352 64 352zm368 56a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"/></svg>
+    </a>
+    <article data-aos="fade-up" class="-mt-20 md:grid grid-cols-3">
+      <h3 class="text-xl underline underline-offset-2  flex-wrap">{translation.curriculum["subtitle-experience"]}</h3>
+      <div class="md:col-span-2">
+        {
+          translation.curriculum.experience.map((item)=>(
+            <div>
+              <h4 >{item.job}</h4>
+              <h5>{item.place}</h5>
+              <p class="mt-2 mb-5">{item["description-job"]}</p>
+            </div>
+           
+          ))
+        }
+      </div>
+    </article>
+    <article data-aos="fade-up" class="">
+      <h3 class="text-xl underline underline-offset-2 md:w-1/5 my-3">{translation.curriculum["subtitle-certificates"]}</h3>
+      <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {
+          translation.curriculum.certificates.map((item)=>(
+          <li>{item}</li>
+          ))
+        }
+      </ul>
+    </article>  
+    <article data-aos="fade-up" class="">
+      <h3 class="text-xl underline underline-offset-2 md:w-1/5 my-3">{translation.curriculum["subtitle-degrees"]}</h3>
+      <div>
+        {
+          translation.curriculum.degrees.map((item)=>(
+            <h5 class="mt-2">{item.deegre}</h5>
+            <h6 class="mb-4 text-sm">{item.college}</h6>
+          ))
+        }
+      </div>
+    </article>
+</Basic>

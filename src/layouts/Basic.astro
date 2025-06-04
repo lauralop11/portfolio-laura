@@ -1,16 +1,16 @@
 ---
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 import Header from "../components/Header"
 import Footer from "../components/Footer"
 import AOSProvider from "@components/AOSProvider";
 import "../styles/global.css"
 
 const {title} = Astro.props;
+const currentLang = Astro.currentLocale || "fr";
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang={currentLang}>
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,12 +18,13 @@ const {title} = Astro.props;
     <meta name="description" content="I am Laura, web developer with experience techonologies JavaScript, React, HTML and CSS." />
     <meta name="keywords" content="web developer, portfolio, React, JavaScript, HTML, CSS, curriculum, frontend" />
     <title>{title}</title>
-    <link rel="icon" href="./assets/memoji.png" type="image/png">
+    <link rel="icon" href="../assets/memoji.png" type="image/png">
   </head>
   <body>
-    <AOSProvider client:load>
-      <Header title = {title} client:load/>
-      <main>
+    <AOSProvider >
+      <slot name="selector"/>
+      <Header title={title} currentLang={currentLang}/>
+      <main class="relative">
         <slot />
       </main>
       <Footer phone = "581-980-93-58" email = "lauralop_11@hotmail.com" />

@@ -24,10 +24,10 @@ const currentLang = Astro.currentLocale || "fr";
     <AOSProvider >
       <slot name="selector"/>
       <Header title={title} currentLang={currentLang}/>
-      <main class="relative">
+      <main class="relative -top-[30px] mx-auto px-4">
         <slot />
       </main>
-      <Footer phone = "581-980-93-58" email = "lauralop_11@hotmail.com" />
+      <Footer currentLang={currentLang} phone = "581-980-93-58" email = "lauralop_11@hotmail.com" />
     </AOSProvider>
   </body>
 </html>

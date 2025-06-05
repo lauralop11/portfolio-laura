@@ -1,6 +1,6 @@
 ---
 import Basic from "@layouts/Basic.astro";
-import  Hexagono from "@components/Hexagono";
+import Home from "@components/Home";
 import LanguageSelector from "@components/LanguageSelector";
 import translation from "@translation/en.json";
 import "../../styles/global.css";
@@ -9,24 +9,5 @@ import "../../styles/global.css";
 	<div slot="selector">
 		<LanguageSelector/>
 	</div>
-	<section data-aos="fade-up" class="md:flex md:flex-row-reverse md:gap-10 items-center justify-baseline md:m-10">
-		<article class="md:w-[60%]">
-			<div class="md:p-4">
-				<h1 class="mt-10 text-4xl font-bold md:text-8xl">{translation.home.greeting}</h1>
-				<p class="my-3 text-sm/7 md:text-lg/7 ">
-					{translation.home.description}
-				</p>
-			</div>
-			<div class="flex flex-row justify-around my-5 items-center">
-				<Hexagono ruta="/portfolio-laura/en/curriculum" text="Curriculum" color="#FFCC70"/>
-				<Hexagono ruta="/portfolio-laura/en/project" text="Projects" color="#FFFADD"/>
-				<Hexagono ruta="mailto:lauralop1595@gmail.com" text="Contact" color="#8ECDDD"/>
-			</div>
-		</article>
-		<article class="mb-10">
-			<div class="flex justify-center items-center mb-2 p-[2px 40px] rounded-full overflow-hidden bg-white w-[200px] h-[200px] md:w-[400px] md:h-[400px] m-auto shadow-lg">
-				<img class=" translate-[20px] scale-110 md:scale-150 md:translate-[50px]" src="./assets/memoji.png" alt="Memoji de Laura Lopez">
-			</div>
-		</article>
-	</section>
+	<Home translation={translation} />
 </Basic>

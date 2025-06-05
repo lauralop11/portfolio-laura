@@ -1,39 +1,39 @@
 {
   "home": {
+    "current": "fr",
     "greeting": "Salut",
-    "description": "Je suis développeuse web depuis 2021, spécialisée en JavaScript, HTML, CSS, React, Astro, Bootstrap, Tailwind et gestion de bases de données avec MySQL. Après un BAC en droit et des études en marketing digital, j'ai trouvé ma voie dans les technologies. Aujourd'hui, je travaille en tant que développeuse et suis passionnée par l'innovation et la création de solutions web.",
-    "options-page":["Curriculum", "Projets", "Contact"]
-  },
-  "footer": {
-    "phone": "Téléphone",
-    "email": "Courriel",
-    "networks": "Réseaux sociaux",
-    "creator": "@ Créé par Laura Lopez"
+    "description": "Je suis développeuse web depuis 2021, spécialisée en JavaScript, HTML, CSS, React, Astro, Bootstrap, Tailwind et gestion de bases de données avec MySQL. Après un BAC en droit et des études en marketing digital, j'ai trouvé ma voie dans les technologies. Aujourd'hui, je travaille en tant que développeuse et suis passionnée par l'innovation et la création de solutions web."
   },
   "projects": {
     "title-projects": "Projets",
     "items-projects":[{
       "subtitle": "Page Comest IQ",
-      "technologies": "React, Tailwind, HTML, CSS et JavaScript",
+      "technologies": "Technologies: React, Tailwind, HTML, CSS et JavaScript",
       "description": "Page de publicité créée pour une entreprise dédiée à la vente de matières premières pour produits de beauté",
       "img": "/portfolio-laura/assets/cometIQ.png"
     },{
       "subtitle":"Dragon ball",
-      "technologies":"HTML, CSS et JavaScript",
+      "technologies":"Technologies: HTML, CSS et JavaScript",
       "description":"Jeu pour faire un petit combat entre les personages du Dragon Ball.",
       "img": "/portfolio-laura/assets/dragonBall.jpg"
     },
     {
       "subtitle":"Contrôle des dépenses",
-      "technologies":"HTML, CSS et JavaScript",
+      "technologies":"Technologies: HTML, CSS et JavaScript",
       "description":"Application développée pour garder le contrôle des dépenses mensuelles.",
       "img": "/portfolio-laura/assets/budgetControl.png"
     },
     {
       "subtitle":"Cesar Code",
-      "technologies":"HTML, CSS et JavaScript",
+      "technologies":"Technologies: HTML, CSS et JavaScript",
       "description":"Pour décoder un message chiffré, il est nécessaire de connaître le nombre de décalage utilisé pour chiffrer le texte.",
       "img": "/portfolio-laura/assets/CodeCesar.png"
+    },
+    {
+      "subtitle":"GitHub",
+      "technologies":"Cliquez pour voir mes projets",
+      "description":"Tous les projets sont disponibles sur mon GitHub.",
+      "img": "/portfolio-laura/assets/github.png"
     }]
   },
   "curriculum": {

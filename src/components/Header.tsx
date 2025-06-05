@@ -23,7 +23,7 @@ const Header: React.FC<HeaderProps> = ({ title, currentLang }) => {
         <div className="flex flex-row items-center">
           <span className="block w-[25px] h-[25px] bg-[#22668D] rounded-xl mr-1"></span>
           <a
-            href={`/portfolio-laura/${currentLang}`}
+            href={`/portfolio-laura/${currentLang}/`}
             className="text-xl font-bold mx-1 md:text-3xl"
           >
             {title}

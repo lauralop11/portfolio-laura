@@ -6,7 +6,7 @@ export default function LanguageSelector () {
 ];
 
 return(
-    <div className="flex flex-row-reverse gap-2">
+  <div className="flex flex-row-reverse gap-2">
     {langs.map((lang) => (
       <a href={`/portfolio-laura/${lang.code}/`}
         className="px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-500 hover:text-white text-gray-700" >

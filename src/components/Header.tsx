@@ -57,7 +57,7 @@ const Header: React.FC<HeaderProps> = ({ title, currentLang }) => {
         >
          {menuItems.map((item,index)=> (
           <a key={index}
-            href={`/portfolio-laura/${currentLang}/${item.toLowerCase()}`}
+            href={index === 2 ? "mailto:lauralika1149@gmail.com":`/portfolio-laura/${currentLang}/${item.toLowerCase()}`}
             className="block md:inline-block hover:text-sky-700 px-3 py-3 hover:underline underline-offset-4 text-lg"
           > {item}
           </a>

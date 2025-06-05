@@ -20,7 +20,7 @@ export default function Home({translation}) {
         {menuItems.map((item, index) => (
            <Hexagono
              key={index}
-             ruta={`/portfolio-laura/${translation.home.current}/${item.toLowerCase()}`}
+             ruta={index === 2 ? "mailto:lauralika1149@gmail.com":`/portfolio-laura/${translation.home.current}/${item.toLowerCase()}`}
              text={item}
              color={index === 0 ? "#FFCC70" : index === 1? "#FFFADD": "#8ECDDD"}
            />

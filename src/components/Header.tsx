@@ -11,9 +11,9 @@ const Header: React.FC<HeaderProps> = ({ title, currentLang }) => {
   };
 
   const options = {
-    fr: ["Curriculum", "Projets", "Contact"],
-    en: ["Curriculum", "Projects", "Contact"],
-    es: ["Curriculum", "Proyectos", "Contacto"],
+    fr: ["Curriculum","Projets","Contact"],
+    en: ["Curriculum","Projects","Contact"],
+    es: ["Curriculum","Proyectos","Contacto"],
   };
   const menuItems = options[currentLang] || options.fr;
  

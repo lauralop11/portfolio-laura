@@ -2,7 +2,7 @@
   "home": {
     "current": "es",
     "greeting": "Hola",
-    "description": "Soy desarrolladora web desde 2021, especializada en JavaScript, HTML, CSS, React, Astro, Bootstrap, Tailwind y gestión de bases de datos con MySQL. Después de un Bachillerato en derecho y estudios en marketing digital, encontré mi camino en las tecnologías. Hoy trabajo como desarrolladora y soy apasionada por la innovación y la creación de soluciones web."
+    "description": "Soy desarrolladora web desde 2021, especializada en JavaScript, HTML, CSS, React, Astro, Bootstrap, Tailwind y gestión de bases de datos con MySQL. Después de mi posgrado en derecho y estudios en marketing digital, encontré mi camino en las nuevas tecnologías. Hoy trabajo como desarrolladora y soy apasionada por la innovación y la creación de soluciones web."
   },
   "projects": {
     "title-projects": "Proyectos",
@@ -26,7 +26,7 @@
     {
       "subtitle":"Juego codigo Cesar",
       "technologies":"HTML, CSS, JavaScript y Boostrap",
-      "description":"Para desifrar un mensaje secreto, es necesario conocer el número de desplazamiento utilizado para cifrar el texto.",
+      "description":"Para descifrar un mensaje secreto, es necesario conocer el número de desplazamiento utilizado para cifrar el texto.",
       "img": "/portfolio-laura/assets/CodeCesar.png"
     },{
       "subtitle":"GitHub",

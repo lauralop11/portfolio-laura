@@ -23,7 +23,7 @@ const currentLang = Astro.currentLocale || "fr";
   <body>
     <AOSProvider >
       <slot name="selector"/>
-      <Header title={title} currentLang={currentLang}/>
+      <Header title={title} currentLang={currentLang} client:load/>
       <main class="relative -top-[30px] mx-auto px-4">
         <slot />
       </main>

@@ -2,37 +2,40 @@
   "home": {
     "current": "en",
     "greeting": "Hello",
+    "profession": "Developer Web",
+    "me": "I am Laura",
+    "about":"About me",
     "description": "I am a web developer since 2021, specialized in JavaScript, HTML, CSS, React, Astro, Bootstrap, Tailwind and database management with MySQL. After a Baccalaureate in law and studies in digital marketing, I found my way in technologies. Today, I work as a developer and am passionate about innovation and creating web solutions."
   },
   "projects": {
-    "title-projects": "Projets",
-    "items-projects":[{
+    "title": "Projets",
+    "items":[{
       "subtitle": "Comest IQ Page",
       "technologies": "React, Tailwind, HTML, CSS and JavaScript",
       "description": "Page of publicity created for a company dedicated to the sale of raw materials for beauty products.",
-      "img": "/portfolio-laura/assets/cometIQ.png"
+      "img": "/portfolio-laura/assets/img/cometIQ.png"
     },{
       "subtitle":"Dragon ball",
       "technologies":"HTML, CSS, JavaScript, bootstrap and APIs",
       "description":"Game to make a small fight between the characters of Dragon Ball with the use of APIs.",
-      "img": "/portfolio-laura/assets/dragonBall.jpg"
+      "img": "/portfolio-laura/assets/img/dragonBall.jpg"
     },
     {
       "subtitle":"Budget Control",
       "technologies":"HTML, CSS, JavaScript and Bootstrap",
       "description":"Application developed to keep track of monthly expenses.",
-      "img": "/portfolio-laura/assets/budgetControl.png"
+      "img": "/portfolio-laura/assets/img/budgetControl.png"
     },
     {
       "subtitle":"Cesar Code",
       "technologies":"HTML, CSS, JavaScript and Bootstrap",
       "description":"To decode a secret message, it is necessary to know the number of shifts used to encrypt the text.",
-      "img": "/portfolio-laura/assets/CodeCesar.png"
+      "img": "/portfolio-laura/assets/img/CodeCesar.png"
     },{
       "subtitle":"GitHub",
       "technologies":"Click to see my projects",
       "description":"All projects are available on my GitHub.",
-      "img": "/portfolio-laura/assets/github.png"
+      "img": "/portfolio-laura/assets/img/github.png"
     }]
   },
   "curriculum": {
@@ -76,5 +79,12 @@
       "deegre":"Bachelor of Law",
       "college": "Universidad La Gran Colombia (2020)"
     }]
+  },
+  "contact": {
+    "title": "Contact-me",
+    "phone": "Phone",
+    "eMail": "E-mail",
+    "social-media": "Social Media",
+    "created": "@Created by Laura Lopez"
   }
 }

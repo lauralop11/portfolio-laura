@@ -30,16 +30,16 @@ export default function Navbar({ title, translation}) {
             <motion.div initial={{ opacity: 0, scale: 0 }} animate={{ opacity: 1, scale: 1 }} exit={{ opacity: 0, scale: 0 }}
               className="absolute top-0 left-0 bg-gray-300/80 size-full z-10" key="box" >
                 <div className="flex flex-col justify-center content-center bg-gray-400 rounded-lg p-5 gap-4 w-[60%] h-[30%] m-auto mt-30">
-                  <a href="#curriculum"
-                  className="block md:inline-block text-lg px-8  hover:underline underline-offset-4 hover:scale-108 "
+                  <a href="#curriculum" onClick={toggleMenu}
+                  className="block md:inline-block text-lg px-8  hover:border-b-2 border-orange-400 hover:scale-108 "
                   > {translation.curriculum.title}
                   </a>
-                  <a href="#projects"
-                    className="block md:inline-block text-lg px-8  hover:underline underline-offset-4 hover:scale-108 "
+                  <a href="#projects" onClick={toggleMenu}
+                    className="block md:inline-block text-lg px-8 hover:border-b-2 border-orange-400 hover:scale-108 "
                   > {translation.projects.title}
                   </a>
-                  <a href="#contact"
-                    className="block md:inline-block text-lg px-8  hover:underline underline-offset-4 hover:scale-108 "
+                  <a href="#contact" onClick={toggleMenu}
+                    className="block md:inline-block text-lg px-8 hover:border-b-2 border-orange-400 hover:scale-108 "
                   > {translation.contact.title}
                   </a>
                 </div>
@@ -48,15 +48,15 @@ export default function Navbar({ title, translation}) {
         </AnimatePresence>
         <div className="hidden md:flex justify-end items-center gap-4">
            <a href="#curriculum"
-            className="block md:inline-block text-lg px-8  hover:underline underline-offset-4 hover:scale-108 "
+            className="block md:inline-block text-lg px-8 hover:border-b-2 border-orange-400 hover:scale-108 "
             > {translation.curriculum.title}
             </a>
             <a href="#projects"
-              className="block md:inline-block text-lg px-8  hover:underline underline-offset-4 hover:scale-108 "
+              className="block md:inline-block text-lg px-8 hover:border-b-2 border-orange-400 hover:scale-108 "
             > {translation.projects.title}
             </a>
             <a href="#contact"
-              className="block md:inline-block text-lg px-8  hover:underline underline-offset-4 hover:scale-108 "
+              className="block md:inline-block text-lg px-8 hover:border-b-2 border-orange-400 hover:scale-108 "
             > {translation.contact.title}
             </a>
         </div>

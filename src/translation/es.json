@@ -13,29 +13,34 @@
       "subtitle": "Pagina ComestIQ",
       "technologies": "React, Tailwind, HTML, CSS et JavaScript",
       "description": "Pagina de publicidad creada para una empresa dedicada a la venta de materias primas para productos de belleza.",
-      "img": "/portfolio-laura/assets/img/cometIQ.png"
+      "img": "/portfolio-laura/assets/img/cometIQ.png",
+      "link":"https://cosmet-iq.vercel.app/"
     },{
       "subtitle":"Dragon ball",
       "technologies":"HTML, CSS y JavaScript",
       "description":"Juego de lucha entre personajes de Dragon Ball con utilizacion de APIs.",
-      "img": "/portfolio-laura/assets/img/dragonBall.jpg"
+      "img": "/portfolio-laura/assets/img/dragonBall.jpg",
+      "link":"https://github.com/lauralop11/GameDragonBall"
     },
     {
       "subtitle":"Control de gastos",
       "technologies":"HTML, CSS y JavaScript",
       "description":"Aplicacion desarrollada para mantener el control de los gastos mensuales.",
-      "img": "/portfolio-laura/assets/img/budgetControl.png"
+      "img": "/portfolio-laura/assets/img/budgetControl.png",
+      "link":"https://github.com/lauralop11/control-hogar"
     },
     {
       "subtitle":"Juego codigo Cesar",
       "technologies":"HTML, CSS, JavaScript y Boostrap",
       "description":"Para descifrar un mensaje secreto, es necesario conocer el número de desplazamiento utilizado para cifrar el texto.",
-      "img": "/portfolio-laura/assets/img/CodeCesar.png"
+      "img": "/portfolio-laura/assets/img/CodeCesar.png",
+       "link":"https://github.com/lauralop11/Code-Cesar"
     },{
       "subtitle":"GitHub",
       "technologies":"Click para ver mis proyectos",
       "description":"Todos los proyectos estan disponibles en mi GitHub.",
-      "img": "/portfolio-laura/assets/img/github.png"
+      "img": "/portfolio-laura/assets/img/github.png",
+      "link":"https://github.com/lauralop11/"
     }]
   },
   "curriculum": {

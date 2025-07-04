@@ -13,30 +13,35 @@
       "subtitle": "Page Comest IQ",
       "technologies": "Technologies: React, Tailwind, HTML, CSS et JavaScript",
       "description": "Page de publicité créée pour une entreprise dédiée à la vente de matières premières pour produits de beauté",
-      "img": "/portfolio-laura/assets/img/cometIQ.png"
+      "img": "/portfolio-laura/assets/img/cometIQ.png",
+      "link":"https://cosmet-iq.vercel.app/"
     },{
       "subtitle":"Dragon ball",
       "technologies":"Technologies: HTML, CSS et JavaScript",
       "description":"Jeu pour faire un petit combat entre les personages du Dragon Ball.",
-      "img": "/portfolio-laura/assets/img/dragonBall.jpg"
+      "img": "/portfolio-laura/assets/img/dragonBall.jpg",
+      "link":"https://github.com/lauralop11/GameDragonBall"
     },
     {
       "subtitle":"Contrôle des dépenses",
       "technologies":"Technologies: HTML, CSS et JavaScript",
       "description":"Application développée pour garder le contrôle des dépenses mensuelles.",
-      "img": "/portfolio-laura/assets/img/budgetControl.png"
+      "img": "/portfolio-laura/assets/img/budgetControl.png",
+      "link":"https://github.com/lauralop11/control-hogar"
     },
     {
       "subtitle":"Cesar Code",
       "technologies":"Technologies: HTML, CSS et JavaScript",
       "description":"Pour décoder un message chiffré, il est nécessaire de connaître le nombre de décalage utilisé pour chiffrer le texte.",
-      "img": "/portfolio-laura/assets/img/CodeCesar.png"
+      "img": "/portfolio-laura/assets/img/CodeCesar.png",
+      "link":"https://github.com/lauralop11/Code-Cesar"
     },
     {
       "subtitle":"GitHub",
       "technologies":"Cliquez pour voir mes projets",
       "description":"Tous les projets sont disponibles sur mon GitHub.",
-      "img": "/portfolio-laura/assets/img/github.png"
+      "img": "/portfolio-laura/assets/img/github.png",
+      "link":"https://github.com/lauralop11/"
     }]
   },
   "curriculum": {

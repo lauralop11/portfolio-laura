@@ -1,13 +1,22 @@
 ---
-import Basic from "@layouts/Basic.astro";
-import Home from "@components/Home";
-import LanguageSelector from "@components/LanguageSelector";
 import translation from "@translation/es.json";
-import "../../styles/global.css";
+import LanguageSelector from "@components/LanguageSelector";
+import Layout from "@layouts/Layout.astro";
+import Navbar from "@components/Navbar";
+import Banner from "@components/Banner";
+import About from "@components/About";
+import Experience from "@components/Experience"
+import Project from "@components/Project";
+import "@styles-app/global.css";
 ---
-<Basic title="Laura Lopez" translation={translation}>
+
+<Layout title="Laura Lopez" translation={translation}>
 	<div slot="selector">
 		<LanguageSelector/>
 	</div>
-<Home translation={translation} />
-</Basic>
+	<Navbar title="Laura Lopez" translation={translation}/>
+	<Banner translation={translation}/>
+	<About translation={translation} />
+	<Experience translation={translation} />
+	<Project translation={translation} />
+</Layout>

@@ -2,37 +2,45 @@
   "home": {
     "current": "es",
     "greeting": "Hola",
+    "profession": "Desarroladora Web",
+    "me": "Soy Laura",
+    "about":"Sobre mi",
     "description": "Soy desarrolladora web desde 2021, especializada en JavaScript, HTML, CSS, React, Astro, Bootstrap, Tailwind y gestión de bases de datos con MySQL. Después de mi posgrado en derecho y estudios en marketing digital, encontré mi camino en las nuevas tecnologías. Hoy trabajo como desarrolladora y soy apasionada por la innovación y la creación de soluciones web."
   },
   "projects": {
-    "title-projects": "Proyectos",
-    "items-projects":[{
+    "title": "Proyectos",
+    "items":[{
       "subtitle": "Pagina ComestIQ",
       "technologies": "React, Tailwind, HTML, CSS et JavaScript",
       "description": "Pagina de publicidad creada para una empresa dedicada a la venta de materias primas para productos de belleza.",
-      "img": "/portfolio-laura/assets/cometIQ.png"
+      "img": "/portfolio-laura/assets/img/cometIQ.png",
+      "link":"https://cosmet-iq.vercel.app/"
     },{
       "subtitle":"Dragon ball",
       "technologies":"HTML, CSS y JavaScript",
       "description":"Juego de lucha entre personajes de Dragon Ball con utilizacion de APIs.",
-      "img": "/portfolio-laura/assets/dragonBall.jpg"
+      "img": "/portfolio-laura/assets/img/dragonBall.jpg",
+      "link":"https://github.com/lauralop11/GameDragonBall"
     },
     {
       "subtitle":"Control de gastos",
       "technologies":"HTML, CSS y JavaScript",
       "description":"Aplicacion desarrollada para mantener el control de los gastos mensuales.",
-      "img": "/portfolio-laura/assets/budgetControl.png"
+      "img": "/portfolio-laura/assets/img/budgetControl.png",
+      "link":"https://github.com/lauralop11/control-hogar"
     },
     {
       "subtitle":"Juego codigo Cesar",
       "technologies":"HTML, CSS, JavaScript y Boostrap",
       "description":"Para descifrar un mensaje secreto, es necesario conocer el número de desplazamiento utilizado para cifrar el texto.",
-      "img": "/portfolio-laura/assets/CodeCesar.png"
+      "img": "/portfolio-laura/assets/img/CodeCesar.png",
+       "link":"https://github.com/lauralop11/Code-Cesar"
     },{
       "subtitle":"GitHub",
       "technologies":"Click para ver mis proyectos",
       "description":"Todos los proyectos estan disponibles en mi GitHub.",
-      "img": "/portfolio-laura/assets/github.png"
+      "img": "/portfolio-laura/assets/img/github.png",
+      "link":"https://github.com/lauralop11/"
     }]
   },
   "curriculum": {
@@ -76,5 +84,12 @@
       "deegre":"Derecho",
       "college": "Universidad La Gran Colombia (2020)"
     }]
+  },
+  "contact": {
+    "title": "Contactame",
+    "phone": "Telefono",
+    "eMail": "Correo",
+    "social-media": "Redes Sociales",
+    "created": "@Creado por Laura Lopez"
   }
 }

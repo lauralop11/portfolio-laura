@@ -1,0 +1,26 @@
+---
+import Navbar from "@components/Navbar";
+import "@styles-app/global.css";
+
+const currentLang = Astro.currentLocale || "fr";
+---
+<!DOCTYPE html>
+<html lang={currentLang}>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Laura Lopez" />
+    <meta name="description" content="I am Laura, web developer with experience techonologies JavaScript, React, HTML and CSS." />
+    <meta name="keywords" content="web developer, portfolio, React, JavaScript, HTML, CSS, curriculum, frontend" />
+    <title>Curriculum Laura Lopez Dev</title>
+    <link rel="icon" href="../assets/memoji.png" type="image/png">
+  </head>
+  <body>
+    <header>
+      <slot name="selector">
+    </header>
+      <main>
+        <slot />
+      </main>
+  </body>
+</html>

@@ -2,16 +2,14 @@
 @import "tailwindcss";
 
 body{
-  margin: 30px;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", serif;
-  background-color: #e1e3e3b0;
+  color: white;
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
 }
-[data-aos] {
-  opacity: 1 !important;
-}
-
 .hexagono {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }

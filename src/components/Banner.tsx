@@ -23,7 +23,7 @@ return (
       <img className="absolute top-0 left-0 scale-105 md:scale-110" src="/portfolio-laura/assets/img/profil.png" alt="Laura photo" />
       </div>
     </article>
-    <ul className="flex flex-wrap justify-around items-center gap-2 p-2 md:p-4 md:text-base bg-gray-500/30 text-sm text-gray-400 w-full">
+    <ul className="flex flex-wrap justify-around items-center gap-2 p-2 md:p-4 md:text-base bg-gray-500/30 text-sm text-gray-200 w-full">
       <li>HTML5</li>
       <li>JS</li>
       <li>CSS</li>

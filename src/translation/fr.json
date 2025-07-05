@@ -27,7 +27,7 @@
       "technologies":"Technologies: HTML, CSS et JavaScript",
       "description":"Application développée pour garder le contrôle des dépenses mensuelles.",
       "img": "/portfolio-laura/assets/img/budgetControl.png",
-      "link":"https://github.com/lauralop11/control-hogar"
+      "link":"https://control-hogar.vercel.app/"
     },
     {
       "subtitle":"Cesar Code",

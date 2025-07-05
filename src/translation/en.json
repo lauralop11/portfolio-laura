@@ -27,7 +27,7 @@
       "technologies":"HTML, CSS, JavaScript and Bootstrap",
       "description":"Application developed to keep track of monthly expenses.",
       "img": "/portfolio-laura/assets/img/budgetControl.png",
-      "link":"https://github.com/lauralop11/control-hogar"
+      "link":"https://control-hogar.vercel.app/"
     },
     {
       "subtitle":"Cesar Code",

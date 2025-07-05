@@ -27,7 +27,7 @@
       "technologies":"HTML, CSS y JavaScript",
       "description":"Aplicacion desarrollada para mantener el control de los gastos mensuales.",
       "img": "/portfolio-laura/assets/img/budgetControl.png",
-      "link":"https://github.com/lauralop11/control-hogar"
+      "link":"https://control-hogar.vercel.app/"
     },
     {
       "subtitle":"Juego codigo Cesar",

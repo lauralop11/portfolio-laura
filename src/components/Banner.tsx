@@ -1,45 +1,63 @@
-import {DocumentArrowDownIcon} from '@heroicons/react/24/solid';
+import { DocumentArrowDownIcon } from "@heroicons/react/24/solid";
+import "@styles-app/animation.css";
 
-export default function Banner ({translation}){
-return (
-  <section className="flex flex-col justify-center items-center md:mt-10">
-    <article className="flex flex-col md:flex-row justify-center items-center md:justify-around md:w-full md:px-10">
-      <div className="flex flex-col justify-center items-center mt-5 mb-6">
-        <h1 className="text-2xl font-bold md:text-4xl">{translation.home.greeting}</h1>
-        <h3 className="text-xl md:text-2xl border-b-2 border-b-orange-400">{translation.home.me}</h3>
-        <h2 className="text-2xl font-bold md:text-6xl">{translation.home.profession}</h2>
-        <div className="flex items-center gap-5 mt-5">
-          <a href={`/portfolio-laura/assets/docs/LauraLopez_${translation.home.current}.pdf`} download="CV_LauraLopez.pdf" className="w-30 px-4 py-1 rounded-lg text-sm text-center flex gap-3 font-semibold text-white border-2 border-orange-400 bg-orange-400 hover:text-orange-400 hover:bg-white hover:border-white">
+export default function Banner({ translation }) {
+  const programmes = [
+    "SASS",
+    "Tailwind",
+    "React",
+    "NextJS",
+    "Astro",
+    "TypeScript",
+    "GitHub",
+    "SQL",
+    "PostgreSQL",
+  ];
+  return (
+    <section className="flex flex-col-reverse justify-center items-center md:flex-row p-10 gap-10">
+      <article className="flex flex-col items-start gap-10 p-4">
+        <div className="mt-10">
+          <h1 className="text-5xl font-bold text-[var(--color-coral)]">
+            {translation.home.greeting}
+          </h1>
+          <h3 className="text-5xl ">{translation.home.me}</h3>
+          <h2 className="mt-5 text-base/8 w-[80%]">
+            {translation.home.profession}
+          </h2>
+        </div>
+        <div className="flex gap-4 mt-5">
+          <a
+            href={`/portfolio-laura/assets/docs/LauraLopez_${translation.home.current}.pdf`}
+            download="CV_LauraLopez.pdf"
+            className="py-3 px-5 shadow-[0_4px_16px_rgba(224,122,95,0.35)] rounded-full text-center font-semibold text-white bg-[var(--color-coral)] hover:scale-103 transition-transform duration-300"
+          >
             {translation.curriculum.downloader}
           </a>
-          <a href="mailto:lauralika1149@gmail.com" className="w-30 px-4 py-1 rounded-lg text-sm text-center flex gap-3 font-semibold text-white border-2 border-orange-400 hover:bg-orange-400">
+          <a
+            href="mailto:lauralika1149@gmail.com"
+            className="py-3 px-5 border-1 text-[var(--color-ink-soft)] rounded-full text-center font-semibold hover:bg-[var(--color-ink)] hover:text-white transition-colors duration-300 ease-in-out"
+          >
             {translation.contact.title}
           </a>
         </div>
-      </div>
-      <div className="size-[200px] md:size-[300px] relative opacity-80 md:overflow-hidden">
-        <div className="size-full rounded-full border-20 border-orange-400">
+        <div>
+          <ul className="flex flex-wrap gap-2 p-2 md:p-4">
+            {programmes.map((programme)=>
+              <li key={programme} className="border-1 p-2 text-[var(--color-ink-soft)] rounded-md bg-[var(--color-warm-white)]">{programme}</li>
+            )}
+          </ul>
         </div>
-      <img className="absolute top-0 left-0 scale-105 md:scale-110" src="/portfolio-laura/assets/img/profil.png" alt="Laura photo" />
-      </div>
-    </article>
-    <ul className="flex flex-wrap justify-around items-center gap-2 p-2 md:p-4 md:text-base bg-gray-500/30 text-sm text-gray-200 w-full">
-      <li>HTML5</li>
-      <li>JS</li>
-      <li>CSS</li>
-      <li>SASS</li>
-      <li>Bootstrap</li>
-      <li>Tailwind</li>
-      <li>React</li>
-      <li>NextJS</li>
-      <li>Astro</li>
-      <li>TypeScript</li>
-      <li>Git</li>
-      <li>GitHub</li>
-      <li>SQL</li>
-      <li>PostgreSQL</li>
-    </ul>
-  </section>
-
-)
+      </article>
+      <article className="relative">
+        <div className="circle relative overflow-hidden">
+        </div>
+        <div className="size-[180px] opacity-80 md:overflow-hidden absolute top-4 left-10">
+          <img className="w-full rounded-bl-[30%] rounded-br-[30%] object-cover"
+            src="/portfolio-laura/assets/img/profil.png"
+            alt="Laura photo"
+          />
+        </div>
+      </article>
+    </section>
+  );
 }

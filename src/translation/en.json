@@ -2,7 +2,7 @@
   "home": {
     "current": "en",
     "greeting": "Hello",
-    "profession": "Developer Web",
+    "profession": "Developer front-end passionate about React, TypeScript and Next.js. I build modern, accessible and well-designed web interfaces.",
     "me": "I am Laura",
     "about":"About me",
     "description": "I am a web developer since 2021, specialized in JavaScript, HTML, CSS, React, Astro, Bootstrap, Tailwind and database management with MySQL. After a Baccalaureate in law and studies in digital marketing, I found my way in technologies. Today, I work as a developer and am passionate about innovation and creating web solutions."
@@ -50,12 +50,26 @@
     "experience":[{
       "job": "Developer front-end",
       "place": "Freelance",
+      "tecno": ["React", "Tailwind CSS", "Vercel", "TypeScript"],
       "description-job": "Maintenance and development of web pages using Javascript and frameworks such as React and Typescript. Layout and responsive design using HTML, CSS, Bootstrap and Tailwind."
     },
     {
       "job": "Developer web junior",
-      "place": "Mola",
+      "place": "Mola - Bogota, Colombia",
+      "tecno": ["JavaScript", "Bootstrap", "API REST", "GitHub"],
       "description-job": "Development and maintenance of websites using HTML, CSS, JavaScript and frameworks like Bootstrap. Integration of third-party APIs to enhance website functionality. Optimization of websites to improve performance and user experience."
+    },
+  {
+      "job": "Personnel manager",
+      "place": "Walmart - Quebec, Canada",
+      "tecno": ["Leadership", "Communication", "Team management"],
+      "description-job": "Gestion d'équipe, recrutement, onboarding et résolution de conflits en environnement à haut volume."
+    },
+    {
+      "job": "Assistante de recherche en droit",
+      "place": "Université La Gran Colombia - Bogota, Colombia",
+      "tecno": ["Investigation", "Analyse juridique", "Rédaction de rapports"],
+      "description-job": "Recherche juridique, rédaction de rapports et assistance dans la préparation de publications académiques."
     }],
     "subtitle-certificates":"Certificates",
     "certificates": ["Javascript and React - Udemy",

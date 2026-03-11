@@ -8,11 +8,11 @@ export default function Certificat() {
   const maskImage = useScrollOverflowMask()
 
 return (
-  <div id="Banner">
+  <div id="Banner" className="">
       <motion.ul ref={ref} style={{ maskImage }} className="h-[220px]">
         {images.map((img, index) => (
-          <li>
-            <img src={img} alt="Photo" className="rounded-sm" />
+          <li key={index}>
+            <img src={img} alt="Photo" className="rounded-lg border-2 border-[var(--color-border)]" />
           </li>
         ))
         }
@@ -49,15 +49,10 @@ function useScrollOverflowMask() {
     return maskImage
 }
 
-/**
- * ==============   Styles   ================
- */
-
 function StyleSheet() {
   return (
     <style>
       {`#Banner {
-        width: 100vw;
         position: relative;
         }
         #Banner .bg {

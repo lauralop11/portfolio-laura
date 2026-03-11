@@ -1,15 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
-body{
+:root {
+  --background: #FAF7F2;
+  --warm-white: #FFFFFF;
+  --sage: #7A9E87;
+  --sage-light: #C8DDD0;
+  --coral: #E07A5F;
+  --coral-light: #F5C4B8;
+  --ink: #1C1C1E;
+  --ink-mid: #4A4A52;
+  --ink-soft: #8A8A96;
+  --border: #E8E3DC;
+  --yellow: #F2C94C;
+  --card-shadow: 0 2px 24px rgba(28, 28, 30, 0.07);
+  --card-shadow-hover: 0 8px 40px rgba(28, 28, 30, 0.13);
+}
+
+@theme inline {
+  --color-warm-white: var(--warm-white);
+  --color-background: var(--background);
+  --color-foreground: var(--ink);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --color-coral: var(--coral);
+  --color-coral-light: var(--coral-light);
+  --color-border: var(--border);
+  --color-ink: var(--ink);
+  --color-ink-mid: var(--ink-mid);
+  --color-ink-soft: var(--ink-soft);
+  --color-sage: var(--sage);
+}
+
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", serif;
-  color: white;
-  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-  background-blend-mode: multiply,multiply;
+  color: var(--ink);
+  background: var(--background);
 }
-.hexagono {
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-}
+

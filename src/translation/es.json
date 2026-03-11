@@ -2,7 +2,7 @@
   "home": {
     "current": "es",
     "greeting": "Hola",
-    "profession": "Desarroladora Web",
+    "profession": "Desarroladora font-end apasionada por React, TypeScript y Next.js. Construyo interfaces web modernas, accesibles y bien diseñadas.",
     "me": "Soy Laura",
     "about":"Sobre mi",
     "description": "Soy desarrolladora web desde 2021, especializada en JavaScript, HTML, CSS, React, Astro, Bootstrap, Tailwind y gestión de bases de datos con MySQL. Después de mi posgrado en derecho y estudios en marketing digital, encontré mi camino en las nuevas tecnologías. Hoy trabajo como desarrolladora y soy apasionada por la innovación y la creación de soluciones web."
@@ -48,15 +48,22 @@
     "downloader": "Descargar CV PDF",
     "subtitle-experience": "Experiencia profesional",
     "experience":[{
-      "job": "Desarrollador front-end",
+      "job": "Desarrollador front-end - Quebec, Canada",
+      "tecno": ["React", "Tailwind CSS", "Vercel", "TypeScript"],
       "place": "Freelance",
       "description-job": " Mantenimiento y desarrollo de páginas web utilizando Javascript y frameworks como React y Typescript. Maquetación y diseño responsivo utilizando HTML, CSS, Bootstrap y Tailwind."
     },
     {
       "job": "Desarrollador web junior",
-      "place": "Mola",
+      "place": "Mola - Bogota, Colombia",
+      "tecno": ["JavaScript", "Bootstrap", "API REST", "GitHub"],
       "description-job": "Desarrollo y mantenimiento de sitios web utilizando HTML, CSS, JavaScript y frameworks como Bootstrap. Integración de API de terceros para mejorar la funcionalidad de los sitios web. Optimización de sitios web para mejorar el rendimiento y la experiencia del usuario."
-   }],
+   },
+  {   "job": "Jefe de personal", 
+      "place": "Walmart - Quebec, Canada", 
+      "tecno": ["Leadership", "Comunicación", "Gestión de equipos", "Resolución de conflictos"],
+      "description-job": "Gestion de equipos, onboarding, contratacion y solucion de conflictos en el medio de trabajo." 
+  }],
     "subtitle-certificates":"Certificados",
     "certificates": ["Javascript y React - Udemy",
         "React con NextJS - Platzi",

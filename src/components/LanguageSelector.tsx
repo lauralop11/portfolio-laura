@@ -1,23 +1,20 @@
-export default function LanguageSelector () {
+export default function LanguageSelector() {
   const langs = [
-  { code: 'fr', label: 'Français' },
-  { code: 'es', label: 'Español' },
-  { code: 'en', label: 'English',},
-];
+    { code: "fr", label: "FR" },
+    { code: "es", label: "ES" },
+    { code: "en", label: "EN" },
+  ];
 
-return(
-  <div className="flex flex-row-reverse gap-2 p-4">
-    {langs.map((lang) => (
-      <a href={`/portfolio-laura/${lang.code}/`}
-        className="bg-gray-300/20 px-4 py-1 rounded-lg text-sm font-semibold hover:scale-108 " >
-        {lang.label}
-      </a>
-    ))} 
-  </div>
-
-  )
+  return (
+    <article className="flex flex-row-reverse gap-2 p-4">
+      {langs.map((lang) => (
+        <a key={lang.code}
+          href={`/portfolio-laura/${lang.code}/`}
+          className=" border-1 px-4 py-1 rounded-2xl text-sm font-semibold hover:scale-108 text-[var(--color-ink-soft)] hover:bg-[var(--color-ink)] hover:text-[var(--color-warm-white)]"
+        >
+          {lang.label}
+        </a>
+      ))}
+    </article>
+  );
 }
-
-
-
-

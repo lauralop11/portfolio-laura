@@ -2,10 +2,10 @@
   "home": {
     "current": "fr",
     "greeting": "Salut",
-    "profession": "Développeuse Web",
+    "profession": "Développeuse front-end passionnée par React, TypeScript et Next.js. Je construis des interfaces web modernes, accessibles et bien conçues.",
     "me": "Je suis Laura",
     "about":"Sur moi",
-    "description": "Je suis développeuse web depuis 2021, spécialisée en JavaScript, HTML, CSS, React, Astro, Bootstrap, Tailwind et gestion de bases de données avec MySQL. Après un BAC en droit et des études en marketing digital, j'ai trouvé ma voie dans les technologies. Aujourd'hui, je travaille en tant que développeuse et suis passionnée par l'innovation et la création de solutions web."
+    "description": "Développeuse web depuis 2021, spécialisée en JavaScript, HTML, CSS, React, Astro, Bootstrap, Tailwind et gestion de bases de données avec MySQL. Après un BAC en droit et des études en marketing digital, j'ai trouvé ma voie dans les technologies. Aujourd'hui, je travaille en tant que développeuse et je suis passionnée par l'innovation et la création de solutions web."
   },
   "projects": {
     "title": "Projets",
@@ -49,15 +49,30 @@
     "downloader": "Telecharger CV PDF",
     "subtitle-experience": "Expérience professionnelle",
     "experience":[{
-      "job": "Développeur front-end",
-      "place": "Indépendant",
-      "description-job": "Maintenance et développement de pages web à l'aide de Javascript et de frameworks tels que React et Typescript. Mise en page et conception réactive à l'aide de HTML, CSS, Bootstrap et tailwind."
+      "job": "Développeuse front-end",
+      "place": "Travailleuse autonome - Quebec, Canada",
+      "tecno": ["React", "Tailwind CSS", "Vercel", "TypeScript"],
+      "description-job": "Conception et développement de composants React modulaires. Intégration d'API REST, gestion d'état, déploiement via Vercel. Conception responsive avec Tailwind CSS."
     },
     {
-      "job": "Développeur web junior",
-      "place": "Mola",
-      "description-job": "Développement et maintenance de sites Web en utilisant HTML, CSS, JavaScript et frameworks comme Bootstrap. Intégration d'API tierces pour améliorer la fonctionnalité des sites Web. Optimisation des sites Web pour améliorer les performances et l'expérience utilisateur."
-    }],
+      "job": "Développeuse eb junior",
+      "place": "Mola - Bogota, Colombia",
+      "tecno": ["JavaScript", "Bootstrap", "API REST", "GitHub"],
+      "description-job": "Maintenance et évolution d'une application React.js + TypeScript en production. Intégration d'API tierces, composants responsifs, versionnement Git/GitHub"
+    },
+    {
+      "job": "Chef du personnel",
+      "place": "Walmart - Quebec, Canada",
+      "tecno": ["Leadership", "Communication", "Recrutement"],
+      "description-job": "Gestion d'équipe, recrutement, onboarding et résolution de conflits en environnement à haut volume."
+    },
+    {
+      "job": "Assistante de recherche en droit",
+      "place": "Université La Gran Colombia - Bogota, Colombia",
+      "tecno": ["Investigation", "Analise juridique", "Rédaction académique"],
+      "description-job": "Recherche juridique, rédaction de rapports et assistance dans la préparation de publications académiques."
+    }]
+     ,
     "subtitle-certificates":"Certificats",
     "certificates": ["Javascript et React - Udemy","React avec Next - Platzi", "Astro - Platzi", "Tailwind et React - Platzi"],
     "subtitle-degrees": "Formation",
